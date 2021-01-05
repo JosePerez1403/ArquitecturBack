@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\System.Domain.Entities\System.Domain.Entities.csproj" />
+    <ProjectReference Include="..\System.Domain.Interfaces\System.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\System.Persistence.Data\System.Persistence.Data.csproj" />
+  </ItemGroup>
+
+</Project>
